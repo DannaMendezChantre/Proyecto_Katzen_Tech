@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/dotaciones.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </ul>
+        </nav>
+    </header>
+    <div class="cen">
+        <a class="agg" href="index.html">Volver</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="#">Ver dotaciones</a>
+            <div class="aggp">
+                <form class="text-center bg-dar" action="dotacion.php" method="POST">
+                <h1>Formulario de Dotación</h1>
+                <form id="productForm">
+                    <label for="dotacion">Dotación:</label>
+                    <select id="dotacion" name="txtdotacion" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Conjuntos">Conjuntos</option>
+                        <option value="Overoles">Overoles</option>
+                        <option value="Chaquetas">Camisas</option>
+                        <option value="Chaquetas">Camisetas</option>
+                    </select>
+
+                    <label for="codigo">#:</label>
+                    <input type="text" id="codigo" name="txtcodigo" required>
+            
+                    <label for="talla">Talla:</label>
+                    <input type="text" id="talla" name="txttalla" required>
+            
+                    <label for="color">Color:</label>
+                    <input type="text" id="color" name="txtcolor" required>
+            
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="txtsexo" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+            
+                    <label for="especificaciones">Especificaciones:</label>
+                    <textarea id="especificaciones" name="txtespecificaciones" required></textarea>
+            
+                    <button type="submit" class="btn btn-success">Guardar Dotación</button>
+                </form>
+                </form>
+                </div>
+
+    </div>
+</body>
+</html>
