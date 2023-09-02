@@ -1,0 +1,17 @@
+Tabla clientes
+Id, Nombre_Empresa, Telefono, Direccion
+
+Tabla proveedores
+Id, Nombre_Empresa, Telefono, Direccion
+
+Tabla productos
+Codigo, Categoria, Nombre_Producto, Valor_UNI, Cantidad, Imagen, Stock_Maximo, Stock_Minimo
+
+Tabla facturas
+N_Factura, fk_pk_Id_Cliente, Fecha_Factura, Total_Factura
+
+Tabla anticipos (factura_producto)(cada producto por separado para mas detalle)
+pk_N_factura, fk_pk_Cod_Producto, Cantidad_Prod, Valor_Prod_Cant
+
+Tabla dotaciones
+Codigo, fk_pk_Id_Cliente, fk_pk_Id_Proveedor Tipo_Dotacion, Talla, Color, Sexo, Especificaciones
