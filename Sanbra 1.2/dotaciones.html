@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/dotaciones.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </ul>
+        </nav>
+    </header>
+    <div class="cen">
+        <a class="agg" href="index.html">Volver</a>
+            <div class="aggp">
+                <h1>Formulario de Dotación</h1>
+                <form>
+                    <label for="dotacion">Dotación:</label>
+                    <select id="dotacion" name="dotacion" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Overoles">Overoles</option>
+                        <option value="Chaquetas">Chaquetas</option>
+                        <option value="Conjuntos">Conjuntos</option>
+                    </select>
+            
+                    <label for="talla">Talla:</label>
+                    <input type="text" id="talla" name="talla" required>
+            
+                    <label for="color">Color:</label>
+                    <input type="text" id="color" name="color" required>
+            
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+            
+                    <label for="especificaciones">Especificaciones:</label>
+                    <textarea id="especificaciones" name="especificaciones" required></textarea>
+            
+                    <button type="submit">Guardar Dotación</button>
+                </form>
+                </div>
+
+    </div>
+</body>
+</html>
