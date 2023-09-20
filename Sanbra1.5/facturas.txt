@@ -1,0 +1,165 @@
+Factura 1:
+
+Productos seleccionados: 1, 9, 25
+Subtotal = Valor UNI (Producto 1) + Valor UNI (Producto 9) + Valor UNI (Producto 25)
+Subtotal = 5200 + 20000 + 12000
+Subtotal = 37200
+
+Factura 2:
+
+Productos seleccionados: 6, 11, 14, 32
+Subtotal = Valor UNI (Producto 6) + Valor UNI (Producto 11) + Valor UNI (Producto 14) + Valor UNI (Producto 32)
+Subtotal = 28000 + 47000 + 9000 + 6000
+Subtotal = 90000
+
+Factura 3:
+
+Productos seleccionados: 5, 8, 23
+Subtotal = Valor UNI (Producto 5) + Valor UNI (Producto 8) + Valor UNI (Producto 23)
+Subtotal = 7500 + 4500 + 42000
+Subtotal = 54000
+
+Factura 4:
+
+Productos seleccionados: 1, 25, 35
+Subtotal = Valor UNI (Producto 1) + Valor UNI (Producto 25) + Valor UNI (Producto 35)
+Subtotal = 5200 + 12000 + 200000
+Subtotal = 217200
+
+Factura 5:
+
+Productos seleccionados: 6, 14, 24, 29
+Subtotal = Valor UNI (Producto 6) + Valor UNI (Producto 14) + Valor UNI (Producto 24) + Valor UNI (Producto 29)
+Subtotal = 28000 + 9000 + 53000 + 17000
+Subtotal = 107000
+
+Factura 6:
+
+Productos seleccionados: 5, 9, 19
+Subtotal = Valor UNI (Producto 5) + Valor UNI (Producto 9) + Valor UNI (Producto 19)
+Subtotal = 7500 + 20000 + 17000
+Subtotal = 44500
+
+Factura 7:
+
+Productos seleccionados: 8, 11, 25
+Subtotal = Valor UNI (Producto 8) + Valor UNI (Producto 11) + Valor UNI (Producto 25)
+Subtotal = 4500 + 47000 + 12000
+Subtotal = 63500
+
+Factura 8:
+
+Productos seleccionados: 1, 6, 32
+Subtotal = Valor UNI (Producto 1) + Valor UNI (Producto 6) + Valor UNI (Producto 32)
+Subtotal = 5200 + 28000 + 6000
+Subtotal = 39200
+
+Factura 9:
+
+Productos seleccionados: 9, 14, 29
+Subtotal = Valor UNI (Producto 9) + Valor UNI (Producto 14) + Valor UNI (Producto 29)
+Subtotal = 20000 + 9000 + 17000
+Subtotal = 46000
+
+Factura 10:
+
+Productos seleccionados: 5, 24, 31
+Subtotal = Valor UNI (Producto 5) + Valor UNI (Producto 24) + Valor UNI (Producto 31)
+Subtotal = 7500 + 53000 + 45000
+Subtotal = 105500
+
+Factura 11:
+
+Productos seleccionados: 6, 19, 25, 35
+Subtotal = Valor UNI (Producto 6) + Valor UNI (Producto 19) + Valor UNI (Producto 25) + Valor UNI (Producto 35)
+Subtotal = 28000 + 17000 + 12000 + 200000
+Subtotal = 247000
+
+Factura 12:
+
+Productos seleccionados: 8, 14, 32
+Subtotal = Valor UNI (Producto 8) + Valor UNI (Producto 14) + Valor UNI (Producto 32)
+Subtotal = 4500 + 9000 + 6000
+Subtotal = 19500
+
+Factura 13:
+
+Productos seleccionados: 1, 9, 29
+Subtotal = Valor UNI (Producto 1) + Valor UNI (Producto 9) + Valor UNI (Producto 29)
+Subtotal = 5200 + 20000 + 17000
+Subtotal = 42200
+
+Factura 14:
+
+Productos seleccionados: 5, 23, 35
+Subtotal = Valor UNI (Producto 5) + Valor UNI (Producto 23) + Valor UNI (Producto 35)
+Subtotal = 7500 + 42000 + 200000
+Subtotal = 254500
+
+Factura 15:
+
+Productos seleccionados: 6, 11, 19, 25
+Subtotal = Valor UNI (Producto 6) + Valor UNI (Producto 11) + Valor UNI (Producto 19) + Valor UNI (Producto 25)
+Subtotal = 28000 + 47000 + 17000 + 12000
+Subtotal = 104000
+
+
+-- Factura 1
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('1', '2023-01-01', 37200);
+
+-- Factura 2
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('2', '2023-02-01', 90000);
+
+-- Factura 3
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('3', '2023-03-01', 54000);
+
+-- Factura 4
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('4', '2023-04-01', 217200);
+
+-- Factura 5
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('5', '2023-04-01', 107000);
+
+-- Factura 6
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('6', '2023-04-01', 44500);
+
+-- Factura 7
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('7', '2023-04-01', 63500);
+
+-- Factura 8
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('8', '2023-05-01', 39200);
+
+-- Factura 9
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('9', '2023-05-10', 46000);
+
+-- Factura 10
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('10', '2023-06-03', 105500);
+
+-- Factura 11
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('11', '2023-06-05', 247000);
+
+-- Factura 12
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('12', '2023-07-26', 19500);
+
+-- Factura 13
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('13', '2023-07-27', 42200);
+
+-- Factura 14
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('14', '2023-08-20', 254500);
+
+-- Factura 15
+INSERT INTO Facturas (N_Factura, Fecha_Factura, Total_Factura)
+VALUES ('15', '2023-08-29', 104000);
