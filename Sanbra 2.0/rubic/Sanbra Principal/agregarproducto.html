@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .men a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .cen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .agg {
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .aggp {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+
+    <div class="cen">
+        <a class="agg" href="index.html">Cancelar</a>
+        <div class="aggp">
+            <form class="text-center bg-dar" action="registro.php" method="POST">
+                <h1>Ingreso de Productos</h1>
+                <form id="productForm">
+                    <label for="codigo">Código:</label>
+                    <input type="text" id="codigo" name="txtcodigo" required>
+
+                    <label for="codigo">Categoria:</label>
+                    <input type="text" id="categoria" name="txtcategoria" required>
+
+                    <label for="nombre">Nombre del Producto:</label>
+                    <input type="text" id="nombre" name="txtnombre" required>
+
+                    <label for="valor">Valor:</label>
+                    <input type="number" id="valor" name="txtvalor" min="0" step="0.01" required>
+
+                    <label for="imagen">Imagen:</label>
+                    <input type="file" id="imagen" name="txtimagen" accept="image/*" required>
+
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad" name="txtcantidad" min="0" required>
+
+                    <label for="stockmaximo">Stock Maximo:</label>
+                    <input type="number" id="stockmaximo" name="txtstockmaximo" required>
+
+                    <label for="stockminimo">Stock Minimo:</label>
+                    <input type="number" id="stockminimo" name="txtstockminimo" required>
+
+                    <button type="submit" class="btn btn-success">Guardar Producto</button>
+                </form>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
