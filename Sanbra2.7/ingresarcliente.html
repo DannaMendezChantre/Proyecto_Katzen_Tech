@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ingresarusuario.css">
+    <title>Inicio</title>
+</head>
+<body style="background-image: url('imgs/header.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <!-- Banner -->
+    <div class="banner">
+        <a href="index.html"><span class="katzen">Katzen</span><span class="tech">Tech</span></a>
+    </div>
+    
+
+    
+
+
+
+    <div class="cen">
+        <a class="agg" href="index.html">Volver</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="listaclientes.php">Ver clientes</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="tipodocumento.html">Agregar documentos</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="aggp">
+                <form class="text-center bg-dar" action="clientes.php" method="POST">
+                <h1 class="header">Ingresar nuevo cliente</h1>
+                <form id="productForm">
+
+                    <label for="tipodoc">Tipo de documento:</label>
+                    <input type="text" id="tipodoc" name="txttipodoc" required>
+            
+                    <label for="id">Id:</label>
+                    <input type="number" id="id" name="txtid" required>
+
+                    <label for="numerodoc">Numero documento:</label>
+                    <input type="number" id="numerodoc" name="txtnumerodoc" required>
+            
+                    <label for="nombreempre">Nombre empresa:</label>
+                    <input type="text" id="nombreempre" name="txtnombreempre" required>
+            
+                    <label for="telefono">Teléfono:</label>
+                    <input type="number" id="telefono" name="txttelefono" required>
+            
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="txtdireccion" required>
+            
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                </form>
+                </form>
+                </div>
+
+    </div>
+</body>
+</html>
