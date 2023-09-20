@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/agregar.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="cen">
+        <a class="agg" href="index.html">Inicio</a>&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="agregarproducto.html">Volver</a>&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="listacategoria.html">Ver categorias</a>
+            <div class="aggp">
+                <form class="text-center bg-dar" action="categoria.php" method="POST">
+                <h1>Nueva Categoria</h1>
+                <form id="productForm">
+                    <label for="nombreca">Nombre categoria:</label>
+                    <input type="text" id="nombreca" name="txtnombreca" required>
+
+                    <label for="descripcion">Descripcion:</label>
+                    <input type="text" id="descripcion" name="txtdescripcion" required>
+
+        
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                </form>
+                </form>
+            </div>
+    </div>
+    
+</body>
+</html>

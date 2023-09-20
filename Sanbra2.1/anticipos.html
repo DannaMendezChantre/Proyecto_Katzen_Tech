@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ingresarusuario.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </ul>
+        </nav>
+    </header>
+    <div class="cen">
+        <a class="agg" href="index.html">Volver</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="listaanticipos.html">Ver abonos</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="aggp">
+                <form class="text-center bg-dar" action="abono.php" method="POST">
+                <h1>Anticipo</h1>
+                <form id="productForm">
+            
+                    <label for="idabo">Id:</label>
+                    <input type="number" id="idabo" name="txtidabo" required>
+
+                    <label for="idfac">Id factura:</label>
+                    <input type="number" id="idfac" name="txtidfac" required>
+            
+                    <label for="valorabo">Valor abono:</label>
+                    <input type="number" id="valorabo" name="txtvalorabo" required>
+            
+                    <label for="fechaabo">Fecha abono:</label>
+                    <input type="date" id="fechaabo" name="txtfechaabo" required>
+            
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                </form>
+                </form>
+                </div>
+
+    </div>
+</body>
+</html>
