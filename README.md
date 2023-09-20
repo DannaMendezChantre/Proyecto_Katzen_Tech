@@ -1,3 +1,5 @@
 # Proyecto_Katzen_Tech
 
 Planteamiento del Problema:
+
+SanBra Seguridad y Seguros, es una microempresa ubicada en el municipio de Soacha-Cundinamarca que se dedica a la distribución de insumos de seguridad industrial, así como a la oferta de seguros de vida y seguros de vehículos. A pesar de su experiencia en el mercado y de su enfoque en la calidad del servicio al cliente, la empresa enfrenta el desafío de no contar con un sistema de inventario adecuado que le permita llevar un control detallado y actualizado de sus activos, pasivos y patrimonios. Un sistema de inventario bien estructurado y eficiente es esencial para cualquier empresa que desee gestionar su stock de productos de manera efectiva. Al no tener un sistema de este tipo, SanBra Seguridad y Seguros puede estar incurriendo en costos adicionales innecesarios, como la falta de seguimiento de las  fechas de vencimiento de los productos, la falta de registro de los movimientos de los productos, la falta de  control de los niveles de stock y la falta de identificación de los productos más populares o menos populares.
