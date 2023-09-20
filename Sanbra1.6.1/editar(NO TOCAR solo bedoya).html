@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+</head>
+<body>
+    <h1>Editar Producto</h1>
+    
+    <form id="editar-form">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required><br>
+
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria" name="categoria" required><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor" name="valor" required><br>
+
+        <label for="imagen">Imagen:</label>
+        <input type="text" id="imagen" name="imagen" required><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="text" id="cantidad" name="cantidad" required><br>
+
+        <label for="stockMaximo">Stock Máximo:</label>
+        <input type="text" id="stockMaximo" name="stockMaximo" required><br>
+
+        <label for="stockMinimo">Stock Mínimo:</label>
+        <input type="text" id="stockMinimo" name="stockMinimo" required><br>
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required><br>
+
+        <button type="button" id="guardar-btn">Guardar</button>
+    </form>
+
+    <script>
+        document.getElementById("guardar-btn").addEventListener("click", function() {
+            // Aquí deberías incluir código para guardar los datos en tu sistema.
+            
+            // Muestra un mensaje emergente de éxito.
+            alert("Producto guardado con éxito.");
+            
+            // Redirige a la página que muestra los productos.
+            window.location.href = "listapro.html";
+        });
+    </script>
+</body>
+</html>
