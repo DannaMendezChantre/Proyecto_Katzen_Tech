@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/agregar.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="men">
+            <a href="index.html">Inicio</a>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="cen">
+        <a class="agg" href="index.html">Volver</a>&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="listafacturas.php">Ver las facturas</a>&nbsp&nbsp&nbsp&nbsp
+        <a class="agg" href="detallefactura.html">Detalles factura</a>
+            <div class="aggp">
+                <form class="text-center bg-dar" action="factura.php" method="POST">
+                <h1>Nueva Factura <br>(No olvides registrar el detalle de la factura)</h1>
+                <form id="productForm">
+                    <label for="idfa">Id factura:</label>
+                    <input type="number" id="idfa" name="txtidfa" required>
+
+                    <label for="idadmi">Id administrador:</label>
+                    <input type="number" id="idadmi" name="txtidadmi" required>
+
+                    <label for="idcli">Id cliente:</label>
+                    <input type="number" id="idcli" name="txtidcli" required>
+
+                    <label for="fechafa">Fecha:</label>
+                    <input type="date" id="fechafa" name="txtfechafa" required>
+
+                    <label for="totalfa">Total:</label>
+                    <input type="number" id="totalfa" name="txttotalfa" required>
+
+        
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                </form>
+                </form>
+            </div>
+    </div>
+    
+</body>
+</html>
