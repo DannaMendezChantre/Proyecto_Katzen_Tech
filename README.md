@@ -1,6 +1,7 @@
 # Proyecto_Katzen_Tech
 
-![image](https://github.com/DannaMendezChantre/Proyecto_Katzen_Tech/assets/131305550/06d5f4b5-70c6-4da2-a8e5-1a20ff885cc2)
+![image](![image](https://github.com/DannaMendezChantre/Proyecto_Katzen_Tech/assets/131305550/bcf01d48-439b-4c21-b469-7685b256e96b)
+)
 
 Planteamiento del Problema:
 
